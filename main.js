@@ -6,6 +6,12 @@ function removeUnderline(x) {
     x.style.textDecoration = 'none';
     x.style.fontSize = '100%';
 }
+function colorChange(x){
+    x.style.color = "#6F77F1"
+}
+function colorNochange(x){
+    x.style.color = 'black'
+}
 
 function backgroundEnhance(x){
     x.style.boxShadow = "0 0 5px #999999"
@@ -83,12 +89,6 @@ function validName(){
     }else{
         return true;
     }
-}
-function sizeIncrease(x){
-    x.style = "height: 150%"
-}
-function sizeNormal(x){
-    x.style = "height: -150%"
 }
 
 var swiper = new Swiper(".mySwiper", {
