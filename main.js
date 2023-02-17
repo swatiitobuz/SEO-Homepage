@@ -91,15 +91,12 @@ function sizeNormal(x){
     x.style = "height: -150%"
 }
 
-const toggle = document.querySelector(".toggle");
-const menu = document.querySelector(".header");
-
-function toggleMenu() {
-    if (header.classList.contains("active")) {
-        header.classList.remove("active");
-        toggle.querySelector("a").innerHTML = "<i class=’fas fa-bars’></i>";
-    } else {
-        header.classList.add("active"); 
-        toggle.querySelector("a").innerHTML = "<i class=’fas fa-times’></i>";
-    }
-}
+var swiper = new Swiper(".mySwiper", {
+    slidesPerView: 3,
+    spaceBetween: 30,
+    freeMode: true,
+    pagination: {
+      el: ".swiper-pagination",
+      clickable: true,
+    },
+  });

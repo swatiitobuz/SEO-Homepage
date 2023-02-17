@@ -2,9 +2,12 @@
 *{
     margin: 0;
     padding: 0;
+
 }
 body{
     font-family: 'Poppins', sans-serif;
+    margin: 15px;
+    
 }
 a{
     color: #333333;
@@ -29,7 +32,7 @@ span {
 }
 .aside2 {
     background-image: url("images/Rectangle\ 922.png");
-    padding-left: 10%;
+    /* margin-left: 20%; */
     padding-top: 3%;
     padding-bottom: 2%;
 }
@@ -50,8 +53,6 @@ span {
 .rectangle79 {
     position: absolute;
     padding-left: 5%;
-    height: 60%;
-    width: 35%;
 }
 
 .rectangle80 {
@@ -67,6 +68,7 @@ span {
 }
 .rectangle929 {
     padding-left: 90%;
+    display: none;
 }
 .rectangle933 {
     padding-left: 90%;
@@ -80,7 +82,7 @@ span {
 }
 
 .rectangle936 {
-    padding-left: 90%;
+    display: none;
 }
 .logo {
     position: relative;
@@ -93,14 +95,11 @@ span {
 }
 
 .ellipse20{
-    padding-left: 60%;
-    position: absolute;
+    display: none;
 }
 
 .ellipse21 {
-    position: absolute;
-    padding-left: 1%;
-    padding-top: 10%;
+    display: none;
 }
 
 .image33 {
@@ -124,122 +123,20 @@ span {
     justify-content: space-between;
     align-items: center;
 }
-.header li{
-    display: block;
-    padding: 15px 5px;
-}
-.item {
-    order: 3;
-    width: 100%;
-    text-align: center;
+  .navigation {
     display: none;
-    padding: 10px;
   }
-  .active .item {
+  .collapse{
     display: block;
   }
-
-  @media all and (min-width: 700px) {
-    .header {
-        justify-content: center;
-    }
-    .toggle {
-        flex: 1;
-        text-align: right;
-        order: 1;
-    }
-    .item {
-        width: auto;
-        order: 1;
-        display: block;
-    }
-    .menu li {
-        padding: 10px 15px;
-        margin: 5px 0;
-    }
-    a {
-        background: #0080ff;
-        border: 1px royalblue solid;
-    }
-    a {
-        background: transparent;
-        border: 1px #0080ff solid;  
-    }
-    a:hover {
-        text-decoration: none;
-    }
+  .search {
+    display: none;
+  }
+  .overview {
+    display: none;
 }
-    .header {
-        display: flex;
-        flex-wrap: wrap;
-        justify-content: space-between;
-        align-items: center;
-    }
-    .header li a {
-        display: block;
-        padding: 15px 5px;
-    }
-    .toggle {
-        order: 1;
-        font-size: 20px;
-    }
-    .item {
-        order: 2;
-        width: 100%;
-        text-align: center;
-        display: none;
-    }
-    .active .item {
-        display: block;
-    }
-    
-  
-
-@media all and (min-width: 960px) {
-    .menu {
-        align-items: flex-start;     
-        flex-wrap: nowrap;
-        background: none;
-    }
-    .toggle {
-        display: none;
-    }
-    .item {
-        order: 1;
-        position: relative;
-        display: block; 
-        width: auto;
-    }
-}
-
 .paragraph {
     position: relative;
-}
-.facebookLogo {
-    padding-left: 10%;
-    position: absolute;
-    padding-top: 10px;
-}
-.instagramLogo {
-    padding-left: 30%;
-    position: absolute;
-}
-
-.girl {
-    position: relative;
-    height: 80%;
-    /* width: 60%; */
-}
-
-.twitterLogo {
-    position: absolute;
-    /* padding-left: 0%; */
-    padding-top: 20%;
-}
-.scratch {
-    position: absolute;
-    height: 60%;
-    width: 30%;
 }
 
 .export {
@@ -298,9 +195,6 @@ span {
 .plansVlue {
     color: #828282;
 }
-
-
-
 .seeOptimisation {
     background-color: white;
 
@@ -341,6 +235,10 @@ span {
 .client {
     overflow-y: scroll;
 }
+.aside2res{
+    display: block;
+}
+
 
 #inputName {
     padding: 12px 20px;
@@ -394,4 +292,167 @@ span {
 #button2:focus {
   box-shadow: rgba(50, 50, 93, .1) 0 0 0 1px inset, rgba(50, 50, 93, .2) 0 6px 15px 0, rgba(0, 0, 0, .1) 0 2px 2px 0, rgba(50, 151, 211, .3) 0 0 0 4px;
 }
+#laptopImage {
+    max-width: 100%;
+    height: auto;
+}
+
+
+  @media all and (min-width: 600px) {
+    .header {
+        justify-content: center;
+    }
+    .toggle {
+        flex: 1;
+        text-align: right;
+        order: 1;
+    }
+    .item {
+        width: auto;
+        order: 1;
+        display: block;
+    }
+    .menu li {
+        padding: 10px 15px;
+        margin: 5px 0;
+    }
+    a {
+        background: #0080ff;
+        border: 1px royalblue solid;
+    }
+    a {
+        background: transparent;
+        border: 1px #0080ff solid;  
+    }
+    a:hover {
+        text-decoration: none;
+    }
+    .collapse {
+        display: none;
+    }
+    .navigation {
+        display: flex;
+        justify-content: space-evenly;
+        align-items: center;
+    }
+    .home {
+        padding-left: 5%;
+        padding-right: 5%;
+
+    }
+    .overview {
+        display: flex;
+    }
+    .overView2 {
+        display: none;
+    }
+    .aside2 {
+        display: flex;
+    }
+    .aside2res{
+        display: none;
+    }
+    .aside4 {
+        display: none;
+    }
+    .ellipse20 {
+        display: block;
+        padding-left: 60%;
+        position: absolute;
+    }
+    .ellipse21{
+        display: block;
+        padding-left: 5%;
+        padding-top:11%;
+        position: absolute;
+    }
+    .headLine {
+        position: relative;
+    }
+    .header {
+        display: none;
+    }
+}
+    
+  
+
+@media all and (min-width: 960px) {
+    .toggle {
+        display: none;
+    }
+    .item {
+        order: 1;
+        position: relative;
+        display: block; 
+        width: auto;
+    }
+    .collapse {
+        display: none;
+    }
+    .overview {
+        display: flex;
+    }
+    .overView2{
+        display: none;
+    }
+    .aside2 {
+        display: flex;
+        align-items: center;
+    }
+    .aside4 {
+        display: flex;
+        align-items: center;
+    }
+    .header {
+        display: none;
+    }
+}
+
+
+@media all and (min-width: 1440px) {
+    .header {
+        display: none;
+    }
+}
+.swiper {
+    width: 100%;
+    height: auto;
+  }
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+
+  html {
+    font-size: 1rem;
+  }
+  
+  @include media-breakpoint-up(sm) {
+    html {
+      font-size: 1.2rem;
+    }
+  }
+  
+  @include media-breakpoint-up(md) {
+    html {
+      font-size: 1.4rem;
+    }
+  }
+  
+  @include media-breakpoint-up(lg) {
+    html {
+      font-size: 1.6rem;
+    }
+  }
+
+  /* .swiper-slide img {
+    display: block;
+    width: 60%;
+    height: auto;
+    object-fit: cover;
+  } */
 
