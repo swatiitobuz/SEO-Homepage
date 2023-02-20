@@ -23,47 +23,33 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-    <div class="container d-flex flex-column">
-        <section>
-            <!-- <nav class="navbar">
-            <div class="brand"><div class="brandname">nuvosa</div>
-            <div class="p-2"><img src="./images/reddot.png" alt="no_image"></div></div>
+    <div class="container">
+        <section name="navbar">
+            <nav class="navbar-fluid">
+                <div class="Logos">nuvosa <img src="./images/reddot.png" alt=""></div>
                 <ul class="nav-links">
                     <input type="checkbox" id="checkbox_toggle" />
                     <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-                        <div class="menu">
-                            <li><a href="/">Home</a></li>
-                            <li><a href="/">Projects</a></li>
-                            <li><a href="/">Blogs</a></li>
-                            <li><a href="/">Pricing</a></li>
-                            <li><a href="/">Contact</a></li>
+                    <div class="menu">
+                        <li><a href="/">Home</a></li>
+                        <li><a href="/">Projects</a></li>
+                        <li><a href="/">Blog</a></li>
+                        <li><a href="/">Pricing</a></li>
+                        <li><a href="/">Contact</a></li>
+                        <li><div class="d-flex">
+                            <div><input type="text" name="" id="" placeholder="Let's talk"></div>
+                            <div><input type="button" name="" id="button-1"></div>
                         </div>
-                    </ul>
-                </nav> -->
-            <div class="navbar1 d-sm-flex w-100">
-                <div class="d-flex align-items-center w-15 flex-row">
-                    <div class="brandname">nuvosa</div>
-                    <div class="p-2"><img src="././images/reddot.png" alt="no_image"></div>
-                </div>
-                
-                  <div class="navigation w-50">
-                    <div class="d-flex justify-content-evenly align-items-center">
-                        <div class="home" onmouseover="underLine(this)" onmouseout="removeUnderline(this)">Home</div>
-                        <div class="home" onmouseover="underLine(this)" onmouseout="removeUnderline(this)">Projects</div>
-                        <div class="home" onmouseover="underLine(this)" onmouseout="removeUnderline(this)">Blog</div>
-                        <div class="home" onmouseover="underLine(this)" onmouseout="removeUnderline(this)">Pricing</div>
-                        <div class="home" onmouseover="underLine(this)" onmouseout="removeUnderline(this)">Contacts</div>
+
+                        </li>
                     </div>
-                  </div>
-                  <div class="search w-55 d-sm-flex align-items-center">
-                    <div><input class="p-2 m-2" type="text" id="" placeholder="Let's talk"></div>
-                    <div><button type="button" class="btn btn-warning px-3 py-2 mx-2"><i class="fa-sharp fa-solid fa-magnifying-glass"></i></button></div>
-                </div>
-            </div>
+                </ul>
+            </nav>
+        </section>
         </section>
         <section>
             <div class="aside1 d-sm-flex pt-5">
-                <div class="d-sm-flex flex-column ps-3">
+                <div class="d-sm-flex flex-column ps-2">
                     <img class="rectangle80" src="./images/Rectangle 80.png" alt="">
                     <img class="ellipse20" src="./images/Ellipse 20.png" alt="">
                     <img class="ellipse21" src="./images/Ellipse 21.png" alt="">
@@ -76,7 +62,7 @@
                     </div>
                     <div class="paragraph fs-4"><p>It is a long established fact that a reader will be distracted by the readable content of a page when It is a long .It is a long established fact that a reader will be distracted by the readable content of a is simply. It is a long established fact that a reader will be distracted.</p></div>
                     <div class="d-sm-flex flex-wrap align-items-center">
-                        <div><button type="button" class="btn btn-warning px-3 py-2">Get Started</button></div>
+                        <div><a href="" class="btn btn-warning px-3 py-2">Get Started</a></div>
                         <div class="ms-2"><img src="./images/Take a tour.png" alt=""></div>
                     </div>
                 </div>
@@ -84,25 +70,25 @@
             </div>
         </section>
         <section>
-            <div class="managements d-flex flex-wrap justify-content-evenly">
-                <div class="socialMediaManagement d-flex flex-column p-2" onmouseover="backgroundEnhance(this)" onmouseout="backgroundReduce(this)">
+            <div class="managements d-flex flex-wrap align-items-center justify-content-evenly m-2">
+                <div class="socialMediaManagement d-flex flex-column" onmouseover="backgroundEnhance(this)" onmouseout="backgroundReduce(this)">
                     <div class="heading d-flex align-items-center">
                         <div><img src="./images/socialmedia.png" alt=""></div>
-                        <div class="text fs-1 ms-3">Social Media <br> Management</div>
+                        <div class="text fs-2 ms-2">Social Media <br> Management</div>
                     </div>
                     <div><p>It is a long established fact that a reader will be <br> distracted by the readable content .It is a long <br> established fact that.</p></div>
                 </div>
-                <div class="socialMediaManagement d-flex flex-column p-2" onmouseover="backgroundEnhance(this)" onmouseout="backgroundReduce(this)">
+                <div class="socialMediaManagement d-flex flex-column" onmouseover="backgroundEnhance(this)" onmouseout="backgroundReduce(this)">
                     <div class="heading d-flex align-items-center">
                         <div><img src="./images/email.png" alt=""></div>
-                        <div class="text fs-1 ms-3">Email <br> Marketing</div>
+                        <div class="text fs-2 ms-2">Email <br> Marketing</div>
                     </div>
                     <div><p>It is a long established fact that a reader will be <br> distracted by the readable content .It is a long <br> established fact that.</p></div>
                 </div>
-                <div class="socialMediaManagement d-flex flex-column p-2" onmouseover="backgroundEnhance(this)" onmouseout="backgroundReduce(this)">
+                <div class="socialMediaManagement d-flex flex-column" onmouseover="backgroundEnhance(this)" onmouseout="backgroundReduce(this)">
                     <div class="heading d-flex align-items-center">
                         <div><img src="./images/seomanagement.png" alt=""></div>
-                        <div class="text fs-1 ms-3">Seo <br> Management</div>
+                        <div class="text fs-2 ms-2">Seo <br> Management</div>
                     </div>
                     <div><p>It is a long established fact that a reader will be <br> distracted by the readable content .It is a long <br> established fact that a reader.</p></div>
                 </div>
@@ -116,7 +102,7 @@
         </section>
         <section>
             <div class="d-flex flex-wrap pt-5 ps-2 justify-content-evenly pb-5">
-                <div class="keywordResearch d-flex flex-column p-2" onmouseover="backgroundEnhance(this)" onmouseout="backgroundReduce(this)">
+                <div class="keywordResearch d-flex flex-column p-1" onmouseover="backgroundEnhance(this)" onmouseout="backgroundReduce(this)">
                     <div class="logo">
                         <img class="background" src="./images/Ellipse red.png" alt="">
                         <img class="logo" src="./images/search.png" alt="">
@@ -124,7 +110,7 @@
                     <div class="fs-3 pt-5">Keyword Research</div>
                     <div class="pt-2">It is a long established fact that a <br> reader will be distracted by the It is a <br> long established .</div>
                 </div>
-                <div class="contentOptimisation d-flex flex-column p-2" onmouseover="backgroundEnhance(this)" onmouseout="backgroundReduce(this)">
+                <div class="contentOptimisation d-flex flex-column p-1" onmouseover="backgroundEnhance(this)" onmouseout="backgroundReduce(this)">
                     <div class="logo">
                         <!-- <p class="fs-1 fw-bold">2</p> -->
                         <img class="background" src="./images/Ellipse green.png" alt="">
@@ -134,7 +120,7 @@
                     <div class="pt-2 ps-2">It is a long established fact that a <br> reader will be distracted by the It is a <br> long established .</div>
     
                 </div>
-                <div class="targetAnalysis d-flex flex-column p-2" onmouseover="backgroundEnhance(this)" onmouseout="backgroundReduce(this)">
+                <div class="targetAnalysis d-flex flex-column p-1" onmouseover="backgroundEnhance(this)" onmouseout="backgroundReduce(this)">
                     <div class="logo">
                         <img class="background" src="./images/ellipseblue.png" alt="">
                         <img class="logo" src="./images/Vector2.png" alt="">
@@ -159,7 +145,7 @@
                     <div class="d-flex ps-2 p-5 flex-column">
                         <div class="fs-2">Perfect Solution For <br> Your  <span>&nbsp;Bussiness</span></div>
                         <div><p>It is a long established fact that a reader will be distracted by the It is a <br> long established .t is a long established fact that a reader will be <br> distracted by the readable content of .</p></div>
-                        <div><button type="button" class="btn btn-warning px-3 py-3">Learn More</button></div>
+                        <div><a href="" class="btn btn-warning px-3 py-2">Learn more</a></div>
                     </div>
                 </div>
                 <div class="col-6" id="laptopImage"><img class="img-fluid image2" src="./images/New Macbook Pro Mockup Front View.png" alt=""></div>
@@ -197,29 +183,26 @@
                         <div class="pt-5"><img src="./images/image 30.png" alt=""></div>
                         <div class="fs-3 pt-5">See Optimisation</div>
                         <div>It is a long established fact that a <br> reader will be distracted by.It is a <br> long established.</div>
-                        <div><button type="button" class="btn btn-warning mt-3">Learn more</button></div>
+                        <div><a href="" class="btn btn-warning px-3 py-2">Learn more</a></div>
                     </div>
                     <div class="seeOptimisation d-flex flex-column m-2" onmouseover="backgroundEnhance(this)" onmouseout="backgroundReduce(this)">
                         <div class="pt-5"><img src="./images/image 31.png" alt=""></div>
                         <div class="fs-3 pt-5">Keyword research</div>
                         <div>It is a long established fact that a <br> reader will be distracted by.It is a <br> long established.</div>
-                        <button type="button" class="btn btn-warning mt-3">Learn more</button>
+                        <div><a href="" class="btn btn-warning px-3 py-2">Learn more</a></div>
                     </div>
                     <div class="seeOptimisation d-flex flex-column m-2" onmouseover="backgroundEnhance(this)" onmouseout="backgroundReduce(this)">
-                        <div class="pt-5"><img src="./images/image 32.png" alt=""></div>
+                        <div class="pt-5"><img class="image32" src="./images/image 32.png" alt=""></div>
                         <div class="fs-3 pt-2">Social marketing</div>
                         <div>It is a long established fact that a <br> reader will be distracted by.It is a <br> long established.</div>
-                        <button type="button" class="btn btn-warning mt-3">Learn more</button>
+                        <div><a href="" class="btn btn-warning px-3 py-2">Learn more</a></div>
                     </div>
                 </div>
             </div>
         </section>
         <section>
             <div class="aside4 w-100">
-                
-                <!-- <img class="rectangle928" src="./images/Rectangle 928.png" alt=""> -->
                 <div class="w-100 mt-5"><img class="img-fluid" src="./images/image 34.png" alt="" onmouseover="backgroundEnhance(this)" onmouseout="backgroundReduce(this)"></div>
-                <!-- <img class="ellipse24" src="./images/Ellipse 24.png" alt=""> -->
                 <div class="d-flex flex-column align-items-center">
                     <h4 class="fs-2 pt-2">You Make Ask What SEO & Why Do You<span>&nbsp;Need it?</span></h4>
                     <div class="p-3"><p>It is a long established fact that a reader will be distracted by the readable <br> content .It is a long established fact that a reader .It is a long.</p></div>
@@ -330,7 +313,6 @@
         <section>
             <div class="aside8 d-flex flex-column align-items-center pt-5">
                 <div class="fs-2">Our Expert Team<span>&nbsp;Member</span></div>
-                </div>
                 <div><p>It is a long established fact that a reader will be distracted by the readable <br> content .It is a long established fact that a reader </p></div>
                 <div class="d-flex flex-wrap justify-content-evenly">
                     <div class="d-flex flex-column align-items-center border p-3 pt-4 m-3" onmouseover="backgroundEnhance(this)" onmouseout="backgroundReduce(this)">

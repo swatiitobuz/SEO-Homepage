@@ -2,7 +2,6 @@
 *{
     margin: 0;
     padding: 0;
-
 }
 body{
     font-family: 'Poppins', sans-serif;
@@ -114,6 +113,10 @@ span {
 .image33 {
     height: 80%;
     width: 80%;
+}
+.image32{
+    height: 90%;
+    width: 85%;
 }
 
 .image34 {
@@ -305,50 +308,32 @@ span {
     max-width: 100%;
     height: auto;
 }
+.Logos {
+    font-size: 32px;
+    left: 0;
+}
+.menu { 
+    display:none;
+    position: absolute;
+    padding-right: 50px;
+    right: 0;
+    text-align: center;
+    }
+    
+.menu li:hover {
+    display: inline-block;
+    transition: 0.3s ease;
+}
+input[type=checkbox]:checked ~ .menu{
+    display: block;
+}
+    
+.hamburger {
+    display: block;
+    }
 
 
   @media all and (min-width: 600px) {
-    .header {
-        justify-content: center;
-    }
-    .toggle {
-        flex: 1;
-        text-align: right;
-        order: 1;
-    }
-    .item {
-        width: auto;
-        order: 1;
-        display: block;
-    }
-    .menu li {
-        padding: 10px 15px;
-        margin: 5px 0;
-    }
-    a {
-        background: #0080ff;
-        border: 1px royalblue solid;
-    }
-    a {
-        background: transparent;
-        border: 1px #0080ff solid;  
-    }
-    a:hover {
-        text-decoration: none;
-    }
-    .collapse {
-        display: none;
-    }
-    .navigation {
-        display: flex;
-        justify-content: space-evenly;
-        align-items: center;
-    }
-    .home {
-        padding-left: 5%;
-        padding-right: 5%;
-
-    }
     .overview {
         display: flex;
     }
@@ -387,23 +372,45 @@ span {
         align-items: center;
         justify-content: space-evenly;
     }
+    .navbar {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        /* padding: 20px; */
+        background-color: white;
+        color: black;
+        
+        }
+        
+    .nav-links a {
+        color: black;
+    }
+    .menu {
+        display: flex;
+        gap: 1em;
+        font-size: 18px;
+    }
+        
+    .menu li:hover {
+        border-radius: 5px;
+        transition: 0.3s ease;
+    }
+    .menu li {
+        padding: 5px 14px;
+    }
+    input[type=checkbox]{
+        display: none;
+    } 
+    .hamburger {
+        display: none;
+        font-size: 24px;
+        user-select: none;
+    }
 }
     
   
 
 @media all and (min-width: 960px) {
-    .toggle {
-        display: none;
-    }
-    .item {
-        order: 1;
-        position: relative;
-        display: block; 
-        width: auto;
-    }
-    .collapse {
-        display: none;
-    }
     .overview {
         display: flex;
     }
@@ -463,11 +470,4 @@ span {
       font-size: 1.6rem;
     }
   }
-
-  /* .swiper-slide img {
-    display: block;
-    width: 60%;
-    height: auto;
-    object-fit: cover;
-  } */
 
