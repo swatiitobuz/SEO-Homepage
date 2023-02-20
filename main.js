@@ -1,10 +1,5 @@
 function underLine(x){
-    x.style.textDecoration = 'underline #6F77F1';
-    x.style.fontSize = '120%';
-}
-function removeUnderline(x) {
     x.style.textDecoration = 'none';
-    x.style.fontSize = '100%';
 }
 function colorChange(x){
     x.style.color = "#6F77F1"
