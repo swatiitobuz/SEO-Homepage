@@ -67,7 +67,6 @@ function validEmail(){
     var mailformat = /^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$/;
     if(inputText.value.match(mailformat))
     {
-// alert("Valid email address!");
     document.form.text.focus();
     return true;
     }
