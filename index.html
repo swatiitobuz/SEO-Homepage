@@ -21,30 +21,30 @@
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css" />
     
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdn.rawgit.com/balzss/luxbar/ae5835e2/build/luxbar.min.css">
 </head>
 <body>
     <div class="container">
         <section name="navbar">
-            <nav class="navbar-fluid">
-                <div></div>
-                <div class="Logos">nuvosa <img src="./images/reddot.png" alt="">
-                <ul class="nav-links">
-                    <input type="checkbox" id="checkbox_toggle" />
-                    <label for="checkbox_toggle" class="hamburger">&#9776;</label>
-                    <div class="menu ms-2">
-                        <li><a href="/" onmouseover="underLine(this)" class="hover-underline-animation">Home</a></li>
-                        <li><a href="/" onmouseover="underLine(this)" class="hover-underline-animation">Projects</a></li>
-                        <li><a href="/" onmouseover="underLine(this)" class="hover-underline-animation">Blog</a></li>
-                        <li><a href="/" onmouseover="underLine(this)" class="hover-underline-animation">Pricing</a></li>
-                        <li><a href="/" onmouseover="underLine(this)" class="hover-underline-animation">Contact</a></li>
-                        <li><div class="d-flex">
-                            <div><input class="px-2 py-2" type="text" name="" id="" placeholder="Let's talk"></div>
-                            <div><a href=""><button type="button" class="btn btn-warning ms-2 px-3 py-2"><i class="fa-solid fa-magnifying-glass"></i></button></a></div>
-                        </div>
-                    </li>
-                    </div>
-                </ul>
-            </nav>
+            <header id="luxbar" class="luxbar-static">
+                <input type="checkbox" class="luxbar-checkbox" id="luxbar-checkbox"/>
+                <div class="luxbar-menu luxbar-menu-right luxbar-menu-light">
+                    <ul class="luxbar-navigation">
+                        <li class="luxbar-header">
+                            <a href="#" class="luxbar-brand">nuvosa <img src="./images/reddot.png" alt=""></a>
+                            <label class="luxbar-hamburger luxbar-hamburger-doublespin" 
+                            id="luxbar-hamburger" for="luxbar-checkbox"> <span></span> </label>
+                        </li>
+                        <li class="luxbar-item"><a href="#">Home</a></li>
+                        <li class="luxbar-item"><a href="#">Projects</a></li>
+                        <li class="luxbar-item"><a href="#">Blog</a></li>
+                        <li class="luxbar-item"><a href="#">Pricing</a></li>
+                        <li class="luxbar-item"><a href="#">Contact</a></li>
+                        <li class="me-2 mt-2"><input class="px-3 py-2" type="text" placeholder="let's talk"><button type="button" class="btn btn-warning ms-2"><i class="fa-thin fa-magnifying-glass"></i></button></li>
+
+                    </ul>
+                </div>
+            </header>
         </section>
         <section>
             <div class="aside1 d-sm-flex pt-5">
