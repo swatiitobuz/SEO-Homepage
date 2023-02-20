@@ -18,6 +18,7 @@ function backgroundReduce(x){
 }
 function maskFunction(x){
     x.style.backgroundColor = "#6F77F1";
+    // x.style.width = '30px';
     x.style.borderRadius = '1rem'
     x.style.color="#fff"
     document.querySelector(".purple").style.color = "#fff"
@@ -34,9 +35,9 @@ function nomaskFunction(x){
     document.querySelector(".purple").style.color = "purple"
     document.querySelector(".purple1").style.color = "purple"
     document.querySelector(".purple2").style.color = "purple"
-    document.querySelector("#buttonGetStarted1").style.backgroundColor = "#FFF"
-    document.querySelector("#buttonGetStarted2").style.backgroundColor = "#FFF"
-    document.querySelector("#buttonGetStarted3").style.backgroundColor = "#FFF"
+    document.querySelector("#buttonGetStarted1").style.backgroundColor = '#fff'
+    document.querySelector("#buttonGetStarted2").style.backgroundColor = '#fff'
+    document.querySelector("#buttonGetStarted3").style.backgroundColor = '#fff'
 
 }
 function changes(x) {

@@ -11,13 +11,26 @@ a{
     color: #333333;
     text-decoration: none;
 }
+.girlImage {
+    width: 90%;
+    height: auto;
+}
+.email1 {
+    height: 50%;
+    width: 50%;
+}
     
     li {
         list-style: none;
     }
 p{
     color: #828282;
+    font-weight: 200;
 }
+.paragraph{
+    font-weight: 200;
+}
+
 span {
     color: #6F77F1;
 }
@@ -150,6 +163,10 @@ span {
 .paragraph {
     position: relative;
 }
+.headLine {
+    font-weight: 400;
+    font-size: 40px;
+}
 
 .export {
     position: relative;
@@ -157,6 +174,9 @@ span {
     padding-left: 60%;
     color: #6F77F1;
     transform: rotate(-8.23deg);
+}
+.export2 {
+    display: none;
 }
 .borderdesign {
     position: absolute;
@@ -350,7 +370,7 @@ input[type=checkbox]:checked ~ .menu{
     .hover-underline-animation {
         display: inline-block;
         position: relative;
-        color: #6F77F1;
+        /* color: #6F77F1; */
       }
       
       .hover-underline-animation:after {
@@ -404,6 +424,10 @@ input[type=checkbox]:checked ~ .menu{
     }
     .header {
         display: none;
+    }.export2{
+        display: block;
+        margin-left: -50px;
+        margin-top: 50px;
     }
     .aside5 {
         display: flex;
@@ -446,15 +470,24 @@ input[type=checkbox]:checked ~ .menu{
     }
     .creative{
         display: block;
-        margin-top: 50px;
-        padding-top: 10px;
+        /* margin-top: 50px; */
+        /* padding-top: 10px; */
         padding-left: 5px;
         padding-right: 5px;
-        margin-left: 300px;
-        margin-bottom: 50px;
+        margin-left: 570px;
+        margin-bottom: 25px;
         padding-bottom: 10px;
         background-color: #e6e2e2;
         border-radius: 12px;
+
+    }
+    .headLine {
+        font-weight: 800;
+        font-size: 70px;
+    }
+    .paragraph{
+        font-weight: 400;
+        font-size: 20px;
     }
 }
     
