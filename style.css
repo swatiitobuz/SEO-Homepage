@@ -11,10 +11,10 @@ a{
     color: #333333;
     text-decoration: none;
 }
-.girlImage {
+/* .girlImage {
     width: 90%;
-    height: auto;
-}
+    height: 90%;
+} */
 .email1 {
     height: 50%;
     width: 50%;
@@ -162,6 +162,7 @@ span {
 }
 .paragraph {
     position: relative;
+    font-size: 20px;
 }
 .headLine {
     font-weight: 400;
@@ -248,7 +249,6 @@ span {
 }
 
 .button1 {
-  /* background-color: rgba(51, 51, 51, 0.05); */
   border-radius: 8px;
   border-width: 0;
   color: #333333;
@@ -470,8 +470,6 @@ input[type=checkbox]:checked ~ .menu{
     }
     .creative{
         display: block;
-        /* margin-top: 50px; */
-        /* padding-top: 10px; */
         padding-left: 5px;
         padding-right: 5px;
         margin-left: 570px;
@@ -479,14 +477,14 @@ input[type=checkbox]:checked ~ .menu{
         padding-bottom: 10px;
         background-color: #e6e2e2;
         border-radius: 12px;
-
     }
+
     .headLine {
         font-weight: 800;
         font-size: 70px;
     }
     .paragraph{
-        font-weight: 400;
+        font-weight: 200;
         font-size: 20px;
     }
 }

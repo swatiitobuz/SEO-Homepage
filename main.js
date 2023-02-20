@@ -18,7 +18,6 @@ function backgroundReduce(x){
 }
 function maskFunction(x){
     x.style.backgroundColor = "#6F77F1";
-    // x.style.width = '30px';
     x.style.borderRadius = '1rem'
     x.style.color="#fff"
     document.querySelector(".purple").style.color = "#fff"
